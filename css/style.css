@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+body {
+	background: #000000;
+}
+
+.container {
+	display: flex;
+    height: 100%;    
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+	color: white;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.logo {
+	padding: 0 20px 0 20px;
+}
+
+.description {
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
